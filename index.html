@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-slace=1.0">
+    <title>celana store | toko online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--HEADER -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">CELANA<span>STORE.</span></h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <button id="darkMode">🌙</button>
+                <span class="cart"><b id="jumlah">0</b></span>
+            </div>
+        </nav>
+    </header>
+
+    <!--HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Tampil Keren Dengan<br>Celana Pilihanmu</h1>
+            <p>Temukan berbagai model celana yang 
+nyaman,
+                berkualitas, dan cocok untuk gaya
+sehari-hari.</p>
+            <a href="#produk" class="btn">Belanja sekarang</a>
+        </div>
+    </section>
+
+    <!--PRODUK-->
+    <section id="produk" class="produk">
+        <h2>Produk kami</h2>
+        <p class="subtitle">Pilihan celana terbaik untuk gayamu</p>
+
+        <div class="product-container">
+
+            <div class="card">
+                <img src="image/Celana jeans wanita highwaist.jpg" alt="celana pants wanita">
+                <h3>celana jeans wanita</h3>
+                <p>model cantik dan santai.</p>
+                <h4>Rp100.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/bell bottom.jpg"
+                    alt="celana bell bottom">
+                <h3>celana bell bottom</h3>
+                <p>model simpel untuk berbagai acara.</p>
+                <h4>Rp120.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (12).jpg"
+                    alt="Celana Brixton Victory">
+                <h3>celana Brixton Victory</h3>
+                <p>model keren dan nyaman dipkai.</p>
+                <h4>Rp100.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Calça Moletom Branca Perna Larga.jpg"
+                    alt="Celana Calca Moletom">
+                <h3>Celana calca moletom</h3>
+                <p>model baru dan tebal.</p>
+                <h4>Rp110.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Celana jeans wanita highwaist.jpg"
+                    alt="celana jeans wanita">
+                <h3>celana jeans wanita</h3>
+                <p>model keren dan rapih.</p>
+                <h4>Rp115.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/CELANA JOGGING VIRALL KULOT JOGGER CELANA OLAHRAGA CELANA SWEATPANTS GYM CELANA KULOT LOSTPANTS TEBAL CELANA KULOT SEHARI HARI TEBAL PREMIUM Loose pants Basic Celana Training Oversized Longgar Pria Bahan Fleece Nyam.jpg"
+                    alt="celana jogging kulot">
+                <h3>celana jogging kulot</h3>
+                <p>model keren nyaman dipakai olahraga.</p>
+                <h4>Rp96.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="image/Celana kulot Rayon.jpg"
+                    alt="celana kulot polcadot">
+                <h3>celana kulot polcadot</h3>
+                <p>model keren dan rapih.</p>
+                <h4>Rp150.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (10).jpg"
+                    alt="celana kulot renda">
+                <h3>celana kulot renda</h3>
+                <p>model cantik dan rapih.</p>
+                <h4>Rp120.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (11).jpg"
+                    alt="celana jeans renda">
+                <h3>celana jeans renda</h3>
+                <p>model cantik dan rapih.</p>
+                <h4>Rp130.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (12).jpg"
+                    alt="celana kulot biru">
+                <h3>celana kulot biru</h3>
+                <p>model keren dan cantik.</p>
+                <h4>Rp80.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (13).jpg"
+                    alt="celana kulot hitam">
+                <h3>celana kulot hitam</h3>
+                <p>model elegan dan rapih.</p>
+                <h4>Rp78.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (14).jpg"
+                    alt="celana kulot garis">
+                <h3>celana kulot garis</h3>
+                <p>model rapih dan cantik.</p>
+                <h4>Rp80.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (2).jpg"
+                    alt="celana jeans pink">
+                <h3>celana jeans pink</h3>
+                <p>model terbaru dan cantik.</p>
+                <h4>Rp.120.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (3).jpg"
+                    alt="celana kulot coklat">
+                <h3>celana kulot coklat</h3>
+                <p>cantik dan bagus.</p>
+                <h4>Rp.116.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (4).jpg"
+                    alt="celana jeans motif">
+                <h3>celana jeans motif</h3>
+                <p>model terbaru dan cantik.</p>
+                <h4>Rp125.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (5).jpg"
+                    alt="celana kulot coklat pita">
+                <h3>celana kulot coklat pita</h3>
+                <p>cantik dan rapih.</p>
+                <h4>Rp95.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (6).jpg"
+                    alt="celana kulot rok renda">
+                <h3>celana kulot rok renda</h3>
+                <p>model terbaru dan cantik.</p>
+                <h4>Rp105.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (7).jpg"
+                    alt="celana jogger pink">
+                <h3>celana jogger pink</h3>
+                <p>model terbaru dan cantik.</p>
+                <h4>Rp95.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div> 
+
+            <div class="card">
+                <img
+src="image/download (8).jpg"
+                    alt="celana kulot tali">
+                <h3>celana kulot tali</h3>
+                <p>medel cantik dan rapih.</p>
+                <h4>Rp70.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/download (9).jpg"
+                    alt="celana jeans kulot kantong">
+                <h3>celana jeans kulot kantong</h3>
+                <p>model lucu dan cantik.</p>
+                <h4>Rp95.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Kulot Wanita Casual untuk Aktivitas Sehari-hari.jpg"
+                    alt="celana kulot pita">
+                <h3>celana kulot pita</h3>
+                <p>model lucu dan elegan.</p>
+                <h4>Rp80.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Highwaist Baggy Jeans Tulang Vintage Oversize KOREAN BAGGY STRAIGHT JEANS.jpg"
+                    alt="celana Baggy jeans">
+                <h3>celana Baggy jeans</h3>
+                <p>model cantik cocok di pakai ke acara formal.</p>
+                <h4>Rp105.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Jeans Kulot Wanita.jpg"
+                    alt="celana jeans kulot wanita">
+                <h3>celana jeans kulot wanita</h3>
+                <p>model elegan dan rapih.</p>
+                <h4>Rp140.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Jenny Pants Culottes Celana Panjang Wanita Highwaist Long Pants Kulot Cewek Casual.jpg"
+                    alt="celana jenny pants Culottes">
+                    <h3>celana jenny pants Culottes</h3>
+                    <p>model cantik dan putih tulang.</p>
+                    <h4>Rp87.000</h4>
+                    <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Keygirl Kulot Highwaist Jeans pink ♡.jpg"
+                    alt="celana kulot jeans pink">
+                <h3>celana kulot jeans pink</h3>
+                <p>model terbaru dan rapih.</p>
+                <h4>Rp100.000/h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Klik Wispie Celana Pinstripe dibawah👇🏻.jpg"
+                    alt="celana wispie kulot polcadot">
+                <h3>celana wispie kulot polcadot</h3>
+                <p>model lucu dan cantik.</p>
+                <h4>Rp90.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/Kulot Wanita Casual untuk Aktivitas Sehari-hari.jpg"
+                    alt="celana kulot wanita casual">
+                <h3>celana kulot wanita casual</h3>
+                <p>model keren dan rapih.</p>
+                <h4>Rp95.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img
+src="image/bell bottom.jpg"
+                    alt="celana jeans kulot">
+                <h3>celana kulot garis pita</h3>
+                <p>model elegan dan rapih.</p>
+                <h4>Rp100.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="image/Png pic.jpg" alt="celana kulot cream tekstur">
+                <h3>celana kulot cream tekstur</h3>
+                <p>model terbaru dan cantik.</p>
+                <h4>Rp110.000</h4>
+                <button
+onclick="tambahKeranjang(this)">
+                    Tambah Keranjang
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!--TENTANG -->
+    <section id="tentang" class="tentang">
+        <h2>Tentang Kami</h2>
+        <p>
+            Celana store merupakan toko online yang
+menyediakan
+            berbagai pilihan celana dengan model
+menarik,
+            harga terjangkau, dan kualitas terbaik.
+            kami hadir untuk memenuhi kebutuhan
+fashion kamu.
+        </p>
+    </section>
+
+    <!--KONTAK -->
+    <section id="Kontak" class="Kontak">
+        <h2>Hubungi kami</h2>
+        <p>Silakan isi formulir untuk mengirim pesan.</p>
+
+        <form id="formKontak">
+            <input type="text" id="nama"
+placeholder="nama kamu">
+            <input type="email" id="email"
+placeholder="Email kamu">
+            <textarea id="pesan" placeholder="Tulis pesan kamu"></textarea>
+            <button type="submit">Kirim pesan</button>
+        </form>
+    </section>
+
+    <!--FOOTER -->
+    <footer>
+        <h3>CELANA STORE.</h3>
+        <P>Belanja mudah, tampil lebih percaya diri.</P>
+        <p>&copy; 2026 Celana store. ALL Rights Reserved.</p>
+    </footer>
+
+    <!-- KERANJANG DAN PEMBAYARAN -->
+     <section id="pembayaran" class="pembayaran">
+        <h2>Keranjang & Pembayaran</h2>
+        <p>Periksa pesanan sebelum melakukan checkout.</p>
+
+        <div id="daftarKeranjang">
+        Belum ada produk yang dipilih.
+    </div>
+
+    <h3>Total: Rp<span id="totalHarga">0</span></h3>
+
+    <form id="formBayar">
+        <input type="text" id="pembeli"
+               placeholder="Nama Pembeli" required>
+
+        <textarea id="alamat"
+                  placeholder="Alamat Lengkap"
+                  required></textarea>
+
+        <select id="metode" required>
+            <option value="">Pilih Metode Pembayaran</option>
+            <option value="Transfer Bank">Transfer Bank</option>
+            <option value="COD">Bayar di Tempat (COD)</option>
+            <option value="E-Wallet">E-Wallet (Simulasi)</option>
+        </select>
+
+        <button type="submit">Bayar Sekarang</button>
+    </form>
+</section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
